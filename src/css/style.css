@@ -45,3 +45,27 @@ body {
 .countdown #dayElement::before {
     content: 'DIAS';
 }
+
+.countdown #hourElement::before {
+    content: 'HORAS';
+}
+
+.countdown #minElement::before {
+    content: 'MIN';
+}
+
+.countdown #secElement::before {
+    content: 'SEG';
+}
+
+.countdown span::before {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+    font-family: 'Open Sans', 'Helvetica Neue';
+    font-size: 16px;
+    font-weight: bold;
+    color: darkgray;
+    text-shadow: none;
+}
